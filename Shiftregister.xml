@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/janneman/Documents/kiCad/Shiftregister.sch</source>
+    <date>2017 July 31, Monday 16:41:05</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Shiftregister.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <libsource lib="74xx" part="74HC595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597EDBCC</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597EE138</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597F0929</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597F0F26</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC595</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <libsource lib="74xx" part="74HC595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597F0F66</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <aliases>
+        <alias>74LS596</alias>
+        <alias>74LS595</alias>
+      </aliases>
+      <description>8 bits serial in // out Shift Register 3 State Out</description>
+      <docs>74xx/74HC595.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~QH" type="output"/>
+        <pin num="10" name="SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="G" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector, single row, 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <description>Connector, single row, 01x08</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/Library/Application Support/kicad/library/74xx.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Reg16">
+      <node ref="U2" pin="7"/>
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="2" name="Reg15">
+      <node ref="U2" pin="6"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="3" name="Reg14">
+      <node ref="U2" pin="5"/>
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="4" name="Reg13">
+      <node ref="P3" pin="5"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="5" name="Reg12">
+      <node ref="P3" pin="4"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="6" name="Reg11">
+      <node ref="P3" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="7" name="Reg10">
+      <node ref="P3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="8" name="Reg9">
+      <node ref="U2" pin="15"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="9" name="VCC">
+      <node ref="U1" pin="16"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="10" name="outReg1">
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="11" name="SRCLR">
+      <node ref="U1" pin="10"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="12" name="outReg2">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="13" name="Reg8">
+      <node ref="P1" pin="8"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="14" name="Reg7">
+      <node ref="U1" pin="6"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="15" name="Reg6">
+      <node ref="U1" pin="5"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="16" name="Reg5">
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="17" name="Reg4">
+      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="Reg3">
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="19" name="Reg2">
+      <node ref="U1" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="20" name="Reg1">
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="21" name="SER">
+      <node ref="P2" pin="6"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="22" name="SRCLK">
+      <node ref="U2" pin="11"/>
+      <node ref="P2" pin="5"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="23" name="RCLK">
+      <node ref="U2" pin="12"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P2" pin="4"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="24" name="GND">
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="8"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="25" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+    </net>
+  </nets>
+</export>
