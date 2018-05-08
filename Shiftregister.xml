@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/janneman/128bit-shiftregister/Shiftregister.sch</source>
-    <date>2018 May 08, Tuesday 22:25:03</date>
+    <date>2018 May 08, Tuesday 22:27:46</date>
     <tool>Eeschema 4.0.4-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,7 @@
       <tstamp>598254DF</tstamp>
     </comp>
     <comp ref="R1">
-      <value>R</value>
+      <value>220k</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>

@@ -5,7 +5,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 4,"Connector, single row, 01x06",CONN_01X06,P1 P18,CONN_01X06,Pin_Header_Straight_1x06_Pitch2.54mm,2,
 5,"Connector, single row, 01x08",CONN_01X08,P2 P3 P4 P5 P7 P8 P9 P10 P11 P12 P13 P14 P15 P16 P17 P19,CONN_01X08,Pin_Header_Straight_1x08_Pitch2.54mm,16,
 6,"Connector, double row, 02x08",CONN_02X08,P6,CONN_02X08,Pin_Header_Straight_2x08_Pitch2.54mm,1,
-7,Resistor,R,R1,R,R_0805_HandSoldering,1,
+7,Resistor,R,R1,220k,R_0805_HandSoldering,1,
 8,8 bits serial in // out Shift Register 3 State Out,74HC595,U1 U2 U3 U4 U5 U6 U7 U8 U9 U10 U11 U12 U13 U14 U15 U16,74HC595,DIP-16_W7.62mm_Socket,16,74xx/74HC595.pdf
 
 
@@ -19,6 +19,6 @@ Number of PCBs:,1
 Total components:,54
 Schematic Version:,1.0
 Schematic Date:,2017-01-08
-BoM Date:,"2018 May 08, Tuesday 22:25:03"
+BoM Date:,"2018 May 08, Tuesday 22:27:46"
 Schematic Source:,/Users/janneman/128bit-shiftregister/Shiftregister.sch
 KiCad Version:,Eeschema 4.0.4-stable
