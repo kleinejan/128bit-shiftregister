@@ -1651,8 +1651,6 @@ Wire Wire Line
 Connection ~ 13400 1050
 Wire Wire Line
 	13300 3350 13500 3350
-Wire Wire Line
-	13400 3350 13400 3500
 Connection ~ 13400 3350
 Wire Wire Line
 	9950 3350 10150 3350
@@ -2365,4 +2363,6 @@ F 3 "" H 8300 8650 50  0000 C CNN
 	1    8300 8650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	13400 3350 13400 3500
 $EndSCHEMATC
